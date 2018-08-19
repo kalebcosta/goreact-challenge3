@@ -1,0 +1,73 @@
+.main_line {
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+.main_line:hover .repo_name{
+  color: #7159C1;
+}
+
+.repo_link {
+  text-decoration: none;
+  color: inherit;
+  cursor: auto;
+}
+
+.repo_logo {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.repo_name {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+  max-width: 21ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.repo_login {
+  font-size: 14px;
+  color: #999;
+}
+
+.arrow {
+  display: flex;
+  content: "";
+  width: 7px;
+  height: 12px;
+  background: url('../../assets/right.svg') no-repeat;
+}
+
+.separator {
+  margin: 10px 0px;
+  border: 1px solid #EEE;
+}
+
+.control{
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_remove {
+  height: 20px;
+  width: 20px;
+  color: #fff;
+  margin-right: 15px;
+  border: 0;
+  background-color: #D45454;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btn_remove:hover {
+  background-color: rgb(243, 43, 43);
+}

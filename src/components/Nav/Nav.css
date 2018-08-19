@@ -1,0 +1,15 @@
+.sidenav {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.20);
+  border-radius: 5px;
+  padding: 20px;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  z-index: 1;
+}

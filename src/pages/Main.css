@@ -1,0 +1,61 @@
+.custom-modal {
+  border-radius: 5px;
+  padding: 15px;
+  height: 135px;
+  width: 300px;
+}
+
+.custom-modal p {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.custom-close{
+  display: none;
+}
+
+.user_input{
+  border-radius: 3px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_cancel {
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(190, 190, 190);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.btn_cancel:hover {
+  background-color: rgb(167, 167, 167);
+
+}
+
+.btn_save {
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(134, 238, 74);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.btn_save:hover {
+  background-color: rgb(102, 192, 50);
+
+}
